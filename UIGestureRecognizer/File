@@ -1,0 +1,9 @@
+一、UITouch
+1、UITouchDelegateVC：捕捉touch的四个代理方法。
+2、SwipesVC：捕捉触控点，判断手势滑动方向。
+
+二、UIGestureRecognizer
+1、SwipeGestureVC：单指手势，实现左右上下滑动器；
+2、MultipleSwipesVC： 多指手势，多点触控，实现左右上下滑动；
+3、PinchAndRotationVC：双指手势,实现捏合与旋转识别器；
+4、tap：轻击，无demo；

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SwipesVC.h"
+#import "PinchAndRotationVC.h"
+#import "SwipeGestureVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//        self.window.rootViewController = [[SwipesVC alloc] init];
+    //        self.window.rootViewController = [[PinchAndRotationVC alloc] init];
+            self.window.rootViewController = [[SwipeGestureVC alloc] init];
+
+    
     return YES;
 }
 

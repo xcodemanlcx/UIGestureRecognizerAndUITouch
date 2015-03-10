@@ -14,6 +14,12 @@
 		185B57671AAEF1EF00CBB047 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B57661AAEF1EF00CBB047 /* Images.xcassets */; };
 		185B576A1AAEF1EF00CBB047 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185B57681AAEF1EF00CBB047 /* LaunchScreen.xib */; };
 		185B57761AAEF1EF00CBB047 /* UIGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57751AAEF1EF00CBB047 /* UIGestureRecognizerTests.m */; };
+		185B57811AAEF20B00CBB047 /* SwipesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57801AAEF20B00CBB047 /* SwipesVC.m */; };
+		185B57841AAEF27E00CBB047 /* PinchAndRotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57831AAEF27E00CBB047 /* PinchAndRotationVC.m */; };
+		185B57881AAEF66C00CBB047 /* SwipeGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57871AAEF66C00CBB047 /* SwipeGestureVC.m */; };
+		185B578B1AAEF7E100CBB047 /* MultipleSwipesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B578A1AAEF7E100CBB047 /* MultipleSwipesVC.m */; };
+		185B57901AAEF93000CBB047 /* UITouchDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B578F1AAEF93000CBB047 /* UITouchDelegateVC.m */; };
+		185B57941AAEFC6400CBB047 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 185B57931AAEFC6400CBB047 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		185B576F1AAEF1EF00CBB047 /* UIGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185B57741AAEF1EF00CBB047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185B57751AAEF1EF00CBB047 /* UIGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGestureRecognizerTests.m; sourceTree = "<group>"; };
+		185B577F1AAEF20B00CBB047 /* SwipesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipesVC.h; sourceTree = "<group>"; };
+		185B57801AAEF20B00CBB047 /* SwipesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipesVC.m; sourceTree = "<group>"; };
+		185B57821AAEF27E00CBB047 /* PinchAndRotationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchAndRotationVC.h; sourceTree = "<group>"; };
+		185B57831AAEF27E00CBB047 /* PinchAndRotationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchAndRotationVC.m; sourceTree = "<group>"; };
+		185B57861AAEF66C00CBB047 /* SwipeGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureVC.h; sourceTree = "<group>"; };
+		185B57871AAEF66C00CBB047 /* SwipeGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureVC.m; sourceTree = "<group>"; };
+		185B57891AAEF7E100CBB047 /* MultipleSwipesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleSwipesVC.h; sourceTree = "<group>"; };
+		185B578A1AAEF7E100CBB047 /* MultipleSwipesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleSwipesVC.m; sourceTree = "<group>"; };
+		185B578E1AAEF93000CBB047 /* UITouchDelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchDelegateVC.h; sourceTree = "<group>"; };
+		185B578F1AAEF93000CBB047 /* UITouchDelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchDelegateVC.m; sourceTree = "<group>"; };
+		185B57931AAEFC6400CBB047 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +102,8 @@
 				185B575E1AAEF1EF00CBB047 /* AppDelegate.m */,
 				185B57601AAEF1EF00CBB047 /* ViewController.h */,
 				185B57611AAEF1EF00CBB047 /* ViewController.m */,
+				185B578D1AAEF8D700CBB047 /* UITouch */,
+				185B578C1AAEF8A400CBB047 /* UIGestureRecognizer */,
 				185B57631AAEF1EF00CBB047 /* Main.storyboard */,
 				185B57661AAEF1EF00CBB047 /* Images.xcassets */,
 				185B57681AAEF1EF00CBB047 /* LaunchScreen.xib */,
@@ -117,6 +136,31 @@
 				185B57741AAEF1EF00CBB047 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185B578C1AAEF8A400CBB047 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				185B57861AAEF66C00CBB047 /* SwipeGestureVC.h */,
+				185B57871AAEF66C00CBB047 /* SwipeGestureVC.m */,
+				185B57891AAEF7E100CBB047 /* MultipleSwipesVC.h */,
+				185B578A1AAEF7E100CBB047 /* MultipleSwipesVC.m */,
+				185B57821AAEF27E00CBB047 /* PinchAndRotationVC.h */,
+				185B57831AAEF27E00CBB047 /* PinchAndRotationVC.m */,
+				185B57931AAEFC6400CBB047 /* File */,
+			);
+			name = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		185B578D1AAEF8D700CBB047 /* UITouch */ = {
+			isa = PBXGroup;
+			children = (
+				185B578E1AAEF93000CBB047 /* UITouchDelegateVC.h */,
+				185B578F1AAEF93000CBB047 /* UITouchDelegateVC.m */,
+				185B577F1AAEF20B00CBB047 /* SwipesVC.h */,
+				185B57801AAEF20B00CBB047 /* SwipesVC.m */,
+			);
+			name = UITouch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +246,7 @@
 				185B57651AAEF1EF00CBB047 /* Main.storyboard in Resources */,
 				185B576A1AAEF1EF00CBB047 /* LaunchScreen.xib in Resources */,
 				185B57671AAEF1EF00CBB047 /* Images.xcassets in Resources */,
+				185B57941AAEFC6400CBB047 /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				185B57621AAEF1EF00CBB047 /* ViewController.m in Sources */,
+				185B57881AAEF66C00CBB047 /* SwipeGestureVC.m in Sources */,
+				185B57841AAEF27E00CBB047 /* PinchAndRotationVC.m in Sources */,
+				185B57901AAEF93000CBB047 /* UITouchDelegateVC.m in Sources */,
+				185B57811AAEF20B00CBB047 /* SwipesVC.m in Sources */,
+				185B578B1AAEF7E100CBB047 /* MultipleSwipesVC.m in Sources */,
 				185B575F1AAEF1EF00CBB047 /* AppDelegate.m in Sources */,
 				185B575C1AAEF1EF00CBB047 /* main.m in Sources */,
 			);
